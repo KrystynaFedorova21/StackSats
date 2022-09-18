@@ -1,0 +1,10 @@
+@import url(./main_page/main_page.css);
+@import url(./main_page/menu.css);
+@import url(./10_years/10_years.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main1.css.map */

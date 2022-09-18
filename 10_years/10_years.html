@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="10_years.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <div class="yellow_block">
+        <span>Free Online Calculator - Bitcoin BTC</span>
+    </div>
+</header>
+
+<section>
+    <div class="title">
+        Stack Sats Calculator - <span>Bitcoin 10 year savings plan</span>
+    </div>
+    <div class="input_info">
+        <label for="start_year">
+            <span>Starting year</span>
+            <input id="start_year" type="number" min="2014" max="2140" placeholder="2022">
+        </label>
+        <label for="price">
+            <span>Assumed ø Bitcoin price - in the starting year in USD</span>
+            <input id="price" type="number" placeholder="20000">
+        </label>
+        <label for="saving">
+            <span>Savings amount per year (USD)</span>
+            <input id="saving" type="number" placeholder="3000">
+        </label>
+        <label for="increase">
+            <span>Your expected annual increase  for the Bitcoin price (%)</span>
+            <input id="increase" type="number" placeholder="75%">
+        </label>
+        <label for="degression">
+            <div>Expected degression of the increase for the Bitcoin price <p></p> through increasing adoption (minimum
+                increase 3%)
+            </div>
+            <input id="degression" type="number" placeholder="5%">
+        </label>
+    </div>
+    <button id="input">OK</button>
+    <div class="table">
+
+        <div class="result">
+            <div >Expected increase ob the Bitcoin Price (% per year)
+                <div id="percent"></div>
+            </div>
+        </div>
+        <table class="data">
+
+        </table>
+    </div>
+</section>
+<script src="10_years.js"></script>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+</html>
