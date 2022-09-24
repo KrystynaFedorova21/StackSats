@@ -15,6 +15,12 @@
   font-size: 14px;
 }
 
+.section {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+}
+
 .title {
   margin: 20px;
   display: flex;
@@ -36,6 +42,7 @@
   border: none;
   height: 40px;
   width: 200px;
+  padding: 10px;
 }
 .input_info label {
   display: flex;
@@ -54,6 +61,44 @@
   margin: 10px;
   padding: 15px;
   color: rgb(66, 60, 0);
+}
+
+table {
+  margin: 0 20px;
+}
+
+table.iksweb {
+  text-decoration: none;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table.iksweb th {
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0f65a3;
+}
+
+table.iksweb td {
+  font-size: 13px;
+  color: #354251;
+}
+
+table.iksweb td, table.iksweb th {
+  padding: 10px 5px;
+  line-height: 13px;
+  vertical-align: middle;
+  border: 1px solid #0f65a3;
+}
+
+table.iksweb tr:hover {
+  background-color: #f9fafb;
+}
+
+table.iksweb tr:hover td {
+  color: #354251;
+  cursor: default;
 }
 
 /*# sourceMappingURL=10_years.css.map */

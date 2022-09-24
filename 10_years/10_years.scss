@@ -1,10 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    font-family: 'Roboto Light', sans-serif;
+  font-family: 'Roboto Light', sans-serif;
 
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -15,48 +16,97 @@
   font-size: 14px;
 }
 
-.title{
+.section {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.title {
   margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  span{
+
+  span {
     margin-left: 5px;
-    color:red;
+    color: red;
   }
 }
-.input_info{
+
+.input_info {
   display: flex;
   flex-direction: column;
-  input{
+
+  input {
     background-color: #fff2b9;
     border: none;
     height: 40px;
     width: 200px;
+    padding: 10px;
     //border: #212121 1px solid;
   }
-  label{
+
+  label {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
     border-top: 1px #212121 solid;
   }
-  label:last-child{
+
+  label:last-child {
     padding-bottom: 5px;
     border-bottom: 1px #212121 solid;
   }
 
 }
-#input{
+
+#input {
   width: 150px;
   margin: 10px;
   padding: 15px;
   color: rgb(66, 60, 0);
 
 }
+table{
+  margin: 0 20px;
 
+}
+table.iksweb {
+  text-decoration: none;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table.iksweb th {
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0f65a3;
+}
+
+table.iksweb td {
+  font-size: 13px;
+  color: #354251;
+}
+
+table.iksweb td, table.iksweb th {
+  padding: 10px 5px;
+  line-height: 13px;
+  vertical-align: middle;
+  border: 1px solid #0f65a3;
+}
+
+table.iksweb tr:hover {
+  background-color: #f9fafb
+}
+
+table.iksweb tr:hover td {
+  color: #354251;
+  cursor: default;
+}
 
 
 
