@@ -101,4 +101,8 @@ table.iksweb tr:hover td {
   cursor: default;
 }
 
+.red {
+  color: rgba(181, 0, 25, 0.81);
+}
+
 /*# sourceMappingURL=10_years.css.map */
