@@ -14,6 +14,8 @@ btnSend.onclick = function () {
     acquired()
     assetsSat()
     acquiredSat()
+    cumulative()
+    assetsUSD()
 }
 
 function years() {
@@ -102,7 +104,34 @@ function acquiredSat() {
 
 }
 
+function cumulative() {
+    let acquiredSat = document.querySelectorAll('.acquired_sat')
+    let cumulative = document.querySelectorAll('.cumulative')
+    cumulative[0].innerHTML = acquiredSat[0].innerHTML
+    let b = Number(acquiredSat[0].innerHTML)
 
+    for (let i = 1; i < 10; i++) {
+        cumulative[i].innerHTML = b + Number(acquiredSat[i].innerHTML)
+        b = Number(cumulative[i].innerHTML)
+    }
+
+}
+
+
+function assetsUSD(){
+    let assetsUSD = document.querySelectorAll('.assets_usd')
+    let bitPrice = document.querySelectorAll('.bit_price')
+    let assetsSat = document.querySelectorAll('.assets')
+
+    for (let i = 0; i < 10; i++) {
+        let a=assetsSat[i].innerHTML
+        let b=bitPrice[i].innerHTML
+        assetsUSD[i].innerHTML=Math.floor(a/100000000*b)
+    }
+
+
+
+}
 
 
 
