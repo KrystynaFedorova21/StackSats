@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Light', sans-serif;
-
+text-decoration: none;
 }
 
 .header {
@@ -110,10 +110,50 @@ table.iksweb tr:hover td {
 .red{
   color: rgba(181,0,25,0.81);
 }
+#menu {
+  background: #eef6fd;
+  display: flex;
+  flex-direction: row ;
+  text-decoration: none;
+  justify-content: center;
+
+}
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.first_line{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+.line_menu{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
 
+.option{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
 
+}
+.options{
+  display: flex;
+  flex-direction: row;
 
-
+}
+.option-text{
+  text-decoration: none;
+  color: #212121;
+}
+.option-text:hover{
+  color: #0f65a3;
+}

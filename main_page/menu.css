@@ -5,10 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background: #eef6fd;
-}
-
 .first_line {
   display: flex;
   flex-direction: row;
